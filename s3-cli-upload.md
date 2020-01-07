@@ -20,7 +20,7 @@ Finally, to confirm that it was installed properly run the command:<br><br>
 ### 2. Configuration
 The next step is to configure the AWS CLI client with your security credentials. To do this we require an Access Key ID and Secret Access Key. For information on what these are refer to the [AWS documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) on security credentials.
 
-Run the command:<br>
+Run the command:<br><br>
 ```aws s3 configure```
 
 You will be prompted for the Access Key ID, Secret Access Key, region and output format. An example of a region would be `us-east-2`. Confirm that your are using the correct region for your project. Enter your security credentials, region and leave the output format as `json`. 
