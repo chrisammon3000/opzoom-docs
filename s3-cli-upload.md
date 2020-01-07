@@ -40,7 +40,7 @@ A bucket URI is simply the name of the bucket with the `s3://` prefix:<br><br>
 To confirm that the file was successfully uploaded, list the files in the bucket by running:<br><br>
 ```aws s3 ls <bucket name>```
 
-If the bucket name is "my-cool-s3-bucket" you would run:<br><br>
+For example, if the bucket name is "my-cool-s3-bucket" you would run:<br><br>
 ```aws s3 ls s3://my-cool-s3-bucket```
 
 ## Troubleshooting
