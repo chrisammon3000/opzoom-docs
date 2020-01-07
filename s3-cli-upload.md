@@ -4,7 +4,7 @@ Files can be uploaded to an S3 bucket through the command line interface using t
 ## Getting Started
 
 ### 1. Installation
-To install the AWS CLI it is best to use a package manager such as Homebrew (MacOS) or Anaconda.
+To install the AWS CLI it is best to use a package manager such as Anaconda or Homebrew (MacOS).
 
 **Anaconda**<br>
 ```conda install -c conda-forge awscli```
