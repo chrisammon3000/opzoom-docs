@@ -28,16 +28,16 @@ You will be prompted for the Access Key ID, Secret Access Key, region and output
 Once configuration is successful, the next step is to upload a file to the bucket.
 
 ## Uploading Files to S3 Bucket
-Local files can be uploaded to S3 using the `aws s3 cp` command:<br>
+Local files can be uploaded to S3 using the `aws s3 cp` command:<br><br>
 ```aws s3 cp <local path> <bucket URI>```
 
-A bucket URI is simply the name of the bucket with the `s3://` prefix:<br>
+A bucket URI is simply the name of the bucket with the `s3://` prefix:<br><br>
 ```s3://<bucket name>```
 
- For example, if you're file is named "mytextfile.txt" and your bucket name is "my-cool-s3-bucket" you would run:<br>
+ For example, if you're file is named "mytextfile.txt" and your bucket name is "my-cool-s3-bucket" you would run:<br><br>
 ```aws s3 cp mytextfile.txt s3://my-cool-s3-bucket```
 
-To confirm that the file was successfully uploaded, use `aws s3 ls <bucket name>` to list the files in the bucket. If the bucket name is "my-cool-s3-bucket" you would run:<br>
+To confirm that the file was successfully uploaded, use `aws s3 ls <bucket name>` to list the files in the bucket. If the bucket name is "my-cool-s3-bucket" you would run:<br><br>
 ```aws s3 ls s3://my-cool-s3-bucket```
 
 ## Troubleshooting
