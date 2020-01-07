@@ -36,7 +36,7 @@ A bucket URI is simply the name of the bucket with the `s3://` prefix:<br><br>
  For example, if you're file is named "mytextfile.txt" and your bucket name is "my-cool-s3-bucket" you would run:<br><br>
 ```aws s3 cp mytextfile.txt s3://my-cool-s3-bucket```
 
-To confirm that the file was successfully upload, use `aws s3 ls <bucket name>` to list the files in the bucket. If the bucket name is "my-cool-s3-bucket" you would run:<br><br>
+To confirm that the file was successfully uploaded, use `aws s3 ls <bucket name>` to list the files in the bucket. If the bucket name is "my-cool-s3-bucket" you would run:<br><br>
 ```aws s3 ls s3://my-cool-s3-bucket```
 
 ## Troubleshooting
@@ -44,5 +44,5 @@ It is not uncommon to encounter an Access Denied message. This indicates that th
 
 ## Additional Information
 [What Is the AWS Command Line Interface?](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)<br>
-[AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html#cli-aws-s3)
+[AWS CLI Command Reference – S3](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html#cli-aws-s3)
 
