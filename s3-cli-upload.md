@@ -37,7 +37,7 @@ A bucket URI is simply the name of the bucket with the `s3://` prefix:<br><br>
  For example, if you're file is named "mytextfile.txt" and your bucket name is "my-cool-s3-bucket" you would run:<br><br>
 ```aws s3 cp mytextfile.txt s3://my-cool-s3-bucket```
 
-To confirm that the file was successfully uploaded, list the files in the bucket by running:
+To confirm that the file was successfully uploaded, list the files in the bucket by running:<br><br>
 ```aws s3 ls <bucket name>```
 
 If the bucket name is "my-cool-s3-bucket" you would run:<br><br>
